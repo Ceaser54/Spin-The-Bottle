@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_spin"
+        android:title="action_spin"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/rotate"></item>
+
+    <item
+        android:id="@+id/action_zero"
+        android:title="action_zero"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/zero"></item>
+
+</menu>

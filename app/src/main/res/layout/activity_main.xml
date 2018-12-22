@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+    <ImageView
+        android:id="@+id/bottle"
+        android:layout_width="100dp"
+        android:layout_height="300dp"
+        android:src="@drawable/bottle"
+        android:layout_centerInParent="true" />
+
+    <ImageView
+        android:id="@+id/user1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/bottle"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/user1" />
+
+    <ImageView
+        android:id="@+id/user2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/user2" />
+
+    <ImageView
+        android:id="@+id/user3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="500dp"
+        app:srcCompat="@drawable/user4" />
+
+    <ImageView
+        android:id="@+id/user4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="230dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/user3" />
+
+
+</RelativeLayout>
